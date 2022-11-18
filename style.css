@@ -1,0 +1,107 @@
+:root {
+    --primary-color: #5fbaa7
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: var(--primary-color);
+}
+
+p {
+    text-align: center;
+}
+
+.btn {
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    padding: 5px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.btn:hover {
+    background-color: #4b9a8b;
+}
+
+.btn:active {
+    background-color: #3a7c6e;
+    box-shadow: 0 0 5px #666;
+    transform: translateY(4px);
+}
+
+.money-img {
+    width: 300px;
+}
+
+.currency {
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.currency select {
+    padding: 10px 20px 10px 10px;
+    appearance: none;
+    border: 1px solid #dedede;
+    border-radius: 5px;
+    font-size: 16px;
+    background: transparent;
+    background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz48c3ZnIGhlaWdodD0iNTEycHgiIGlkPSJMYXllcl8xIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1MTIgNTEyOyIgdmVyc2lvbj0iMS4xIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiIgd2lkdGg9IjUxMnB4IiB4bWw6c3BhY2U9InByZXNlcnZlIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj48cGF0aCBkPSJNOTguOSwxODQuN2wxLjgsMi4xbDEzNiwxNTYuNWM0LjYsNS4zLDExLjUsOC42LDE5LjIsOC42YzcuNywwLDE0LjYtMy40LDE5LjItOC42TDQxMSwxODcuMWwyLjMtMi42ICBjMS43LTIuNSwyLjctNS41LDIuNy04LjdjMC04LjctNy40LTE1LjgtMTYuNi0xNS44djBIMTEyLjZ2MGMtOS4yLDAtMTYuNiw3LjEtMTYuNiwxNS44Qzk2LDE3OS4xLDk3LjEsMTgyLjIsOTguOSwxODQuN3oiLz48L3N2Zz4=');
+    background-position: right 10px top 50%, 0 0;
+    background-size: 30px auto, 100%;
+    background-repeat: no-repeat;
+    width: 90px;
+}
+
+.currency select:focus {
+    outline: none;
+}
+
+.currency input {
+    border: 0;
+    background: transparent;
+    font-size: 30px;
+    text-align: right;
+}
+
+.swap-rate-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rate {
+    color: var(--primary-color);
+    font-size: 14px;
+    padding: 0 10px;
+}
+
+select:focus,
+input:focus,
+.btn:focus {
+    outline: none;
+}
+
+@media(max-width: 600px) {
+    .currency input {
+        width: 200px;
+    }
+}
