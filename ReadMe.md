@@ -17,4 +17,4 @@ This is a simple JavaScript currency converter that uses the Exchange Rate API t
 - Used CSS to style the application.
 
 ## Screenshot
-![Screenshot]('https://github.com/WafulaLukorito/Exchange-Rate-Calculator/blob/master/img/money.png')
+![A beautiful sunset](https://github.com/WafulaLukorito/Exchange-Rate-Calculator/blob/master/screenshot/Screenshot%202022-12-06%20213856.png?raw=true)
