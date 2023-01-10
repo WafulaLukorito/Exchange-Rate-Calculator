@@ -16,5 +16,6 @@ This is a simple JavaScript currency converter that uses the Exchange Rate API t
 - Employed `Document Object Model (DOM) manipulation` to dynamically update the user interface.
 - Used CSS to style the application.
 
+Features
 ## Screenshot
 ![A beautiful sunset](https://github.com/WafulaLukorito/Exchange-Rate-Calculator/blob/master/screenshot/Screenshot%202022-12-06%20213856.png?raw=true)
